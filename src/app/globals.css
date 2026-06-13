@@ -70,7 +70,7 @@ nav .nav-back:hover { background: rgba(255,255,255,.1); }
 
 /* ---------- COVER ---------- */
 header {
-  padding: 3.4rem 0 2.6rem;
+  padding: 3.4rem 0 1.8rem;
   background:
     linear-gradient(transparent 0 96%, var(--line) 96% 100%),
     repeating-linear-gradient(90deg, transparent 0 119px, rgba(20,22,26,.04) 119px 120px);
@@ -85,22 +85,23 @@ header {
 
 .shelf-tag {
   margin-top: 1.8rem;
-  border: 3px solid var(--ink);
-  background: var(--tag-yellow);
-  display: grid; grid-template-columns: 1fr;
-  box-shadow: 8px 8px 0 var(--ink);
-  animation: tagDrop .5s cubic-bezier(.2,1.4,.4,1) both;
+  border-left: 4px solid var(--tag-yellow);
+  padding-left: 1.4rem;
 }
-@keyframes tagDrop { from { transform: translateY(-14px); opacity: 0; } to { transform: none; opacity: 1; } }
-.shelf-tag .left { padding: 1.6rem 1.8rem; }
 .shelf-tag h1 {
   font-family: var(--display);
   font-size: clamp(2.2rem, 6.4vw, 4.2rem);
   line-height: .98; letter-spacing: -.01em; text-transform: uppercase;
 }
+.shelf-tag h1 .hl {
+  background: var(--tag-yellow);
+  padding: 0 .18em;
+  display: inline;
+}
 .shelf-tag .sub {
   font-family: var(--mono); font-size: .82rem; font-weight: bold;
   letter-spacing: .06em; margin-top: .9rem; max-width: 34rem;
+  color: #444;
 }
 
 .cover-meta {
@@ -113,7 +114,6 @@ header {
 .cover-bar { width: 240px; }
 
 @media (max-width: 640px) {
-  .shelf-tag { grid-template-columns: 1fr; }
   .cover-meta { grid-template-columns: 1fr; }
 }
 
@@ -306,5 +306,5 @@ footer .yellow { color: var(--tag-yellow); }
   nav { display: none; }
   section { page-break-before: always; }
   header { page-break-after: always; }
-  .shelf-tag, .entry-tag { box-shadow: none; }
+  .entry-tag { box-shadow: none; }
 }
