@@ -472,12 +472,24 @@ function Entry3() {
         <span className="kw">price-takers</span>.
       </p>
 
-      <ImageRow
-        labels={[
-          "IMAGE SLOT - e.g., supply/demand diagram, leftward supply shift",
-          "IMAGE SLOT - e.g., grocery prices / Canada-US trade photo",
-        ]}
-      />
+      <div className="imgrow">
+        <div className="imgslot" style={{ aspectRatio: "auto", padding: 0 }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/entries/entry3/us-canada-flags.png"
+            alt="US and Canada flags overlapping"
+            style={{ width: "100%", height: "auto", objectFit: "contain" }}
+          />
+        </div>
+        <div className="imgslot" style={{ aspectRatio: "auto", padding: 0 }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/entries/entry3/tariffs.png"
+            alt="Shipping containers with tariffs tape"
+            style={{ width: "100%", height: "auto", objectFit: "contain" }}
+          />
+        </div>
+      </div>
 
       <KeyWordFacts subtitle="Chapters 4–7 · full list with definitions">
         <dt>Demand</dt>
