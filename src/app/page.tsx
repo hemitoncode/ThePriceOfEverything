@@ -39,14 +39,14 @@ export default function Home() {
       <section id="toc">
         <div className="entry-tag" style={{ marginBottom: "1.4rem" }}>
           <div className="price">
-            <span className="n">R</span>
-            <span className="u">REFLECT</span>
+            <span className="n">E</span>
+            <span className="u">E-SCRAP</span>
           </div>
           <div className="info">
-            <div className="title">Course Reflection: Entries 1 through 4</div>
+            <div className="title">E-Scrapbook Entries 1 through 4</div>
             <div className="sku-line">
-              <span>BY: HEMIT PATEL</span>
-              <span>DATE: JUN 15, 2026</span>
+              <span>CLASS: CIE3M</span>
+              <span>PERIOD: FEB&ndash;JUN 2026</span>
               <span>CH: 1&ndash;9</span>
               <span>ENTRIES: 4</span>
             </div>
@@ -87,6 +87,22 @@ export default function Home() {
       {/* REFLECTION */}
       <section id="reflection">
         <div className="wrap">
+          <div className="entry-tag" style={{ marginBottom: "2rem" }}>
+            <div className="price">
+              <span className="n">R</span>
+              <span className="u">REFLECT</span>
+            </div>
+            <div className="info">
+              <div className="title">Course Reflection: Entries 1 through 4</div>
+              <div className="sku-line">
+                <span>BY: HEMIT PATEL</span>
+                <span>DATE: JUN 15, 2026</span>
+                <span>CH: 1&ndash;9</span>
+                <span>ENTRIES: 4</span>
+              </div>
+            </div>
+          </div>
+
           <p style={{ maxWidth: "46rem", marginBottom: ".9rem", textAlign: "justify" }}>
             I came into this course expecting economics to be mostly graphs and
             formulas. What I didn&rsquo;t expect was to spend most of the
