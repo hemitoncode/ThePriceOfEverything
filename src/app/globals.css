@@ -72,7 +72,6 @@ nav .nav-back:hover { background: rgba(255,255,255,.1); }
 header {
   padding: 3.4rem 0 1.8rem;
   background:
-    linear-gradient(transparent 0 96%, var(--line) 96% 100%),
     repeating-linear-gradient(90deg, transparent 0 119px, rgba(20,22,26,.04) 119px 120px);
 }
 .aisle {
