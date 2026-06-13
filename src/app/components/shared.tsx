@@ -47,6 +47,9 @@ export function KeyWordFacts({
     <details className="facts">
       <summary>
         <span className="ft">Key Word Facts</span>
+        <span className="ft-toggle">
+          VIEW LIST <span className="ft-toggle-arrow">▾</span>
+        </span>
         <span className="fs">{subtitle}</span>
       </summary>
       <div className="facts-body">
