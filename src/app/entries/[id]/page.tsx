@@ -554,24 +554,47 @@ function Entry4() {
     <section className="entry" id="entry4">
       <EntryTag
         number="04"
-        title="[Article title - to be added]"
+        title="Ottawa aims to cut grocery bills with $3.2B food security strategy"
         skuLines={[
-          "SRC: [Source 4]",
-          "PUB: [date]",
-          "ENTRY: [date]",
-          "CH: -",
-          "LINK: [paste article URL]",
+          "SRC: Global News",
+          "PUB: Jun 11, 2026",
+          "ENTRY: Jun 12, 2026",
+          "CH: 7, 9",
+          "LINK: https://globalnews.ca/news/11232576/canada-food-security-strategy-grocery-prices/",
         ]}
       />
-      <Todo>Same structure as Entry 1.</Todo>
 
       <h3>Summary</h3>
-      <p>[6-7 lines]</p>
+      <p>
+        On June 11, 2026, Ottawa announced a $3.2-billion national food
+        security strategy called &ldquo;More Choice. More Control. More
+        Canada.&rdquo; Prime Minister Mark Carney said it aims to lower grocery
+        bills, cut Canada&rsquo;s reliance on imported food, and loosen the
+        grip of the five chains that control about 75 per cent of grocery sales.
+        A new Food-Link Fund will spend $1 billion over ten years to expand the
+        Ontario Food Terminal and build regional food hubs so independent
+        grocers and farmers can bypass the Big Five. The plan also gives the
+        Competition Bureau $12.9 million more each year to investigate tactics
+        like property controls that block new competitors.
+      </p>
 
       <h3>Economic Concepts</h3>
       <p>
-        [7-8 lines with at least four <span className="kw">key words</span>{" "}
-        bolded]
+        The article ties directly to market structures and government policy
+        toward business. Canadian grocery retail is a clear{" "}
+        <span className="kw">concentrated industry</span>, since five chains
+        hold about 75 per cent of sales, much like an{" "}
+        <span className="kw">oligopoly</span>. That size gives them{" "}
+        <span className="kw">market power</span>, the ability to keep prices
+        higher than real competition would allow, which the government blames
+        for rising food costs. By funding food hubs for independent grocers,
+        Ottawa is trying to weaken this{" "}
+        <span className="kw">industrial concentration</span>. The strategy is
+        the opposite of <span className="kw">laissez-faire</span>, since the
+        government steps in and funds the Competition Bureau to fight
+        anti-competitive tactics. It also pushes back on{" "}
+        <span className="kw">globalization</span> by reducing reliance on
+        imported food.
       </p>
 
       <div className="imgrow">
@@ -593,9 +616,130 @@ function Entry4() {
         </div>
       </div>
 
-      <KeyWordFacts subtitle="Full chapter list · definitions required">
-        <dt>[Term]</dt>
-        <dd>[Definition]</dd>
+      <KeyWordFacts subtitle="Chapters 7–9 · full list with definitions">
+        <dt>Market structure</dt>
+        <dd>
+          Term used to describe the organization and nature of a market or an
+          industry, particularly whether it is competitive or concentrated in
+          nature.
+        </dd>
+        <dt>Competitive industry</dt>
+        <dd>
+          An industry that consists of many small firms and is easily entered
+          by new competitors.
+        </dd>
+        <dt>Concentrated industry</dt>
+        <dd>
+          An industry that is dominated by a few large firms and is not easily
+          entered by new competitors.
+        </dd>
+        <dt>Price-maker</dt>
+        <dd>
+          Term used to describe the position of the dominant firm(s) in a
+          concentrated industry, which can influence the price of the product.
+        </dd>
+        <dt>Market power</dt>
+        <dd>
+          The ability to raise one&rsquo;s prices, usually associated with a
+          dominant or monopolistic position in the market.
+        </dd>
+        <dt>Price-taker</dt>
+        <dd>
+          Term used to describe the position of the individual small firm in a
+          competitive industry, which is unable to influence the price of its
+          product and is forced to accept (take) whatever price is determined
+          in the market.
+        </dd>
+        <dt>Perfect competition</dt>
+        <dd>
+          A term describing industries that consist of a large number of small
+          firms where entry to the industry by new firms is easy, and where all
+          firms in the industry sell identical products.
+        </dd>
+        <dt>Perfectly elastic demand</dt>
+        <dd>
+          A situation in which any price increase above the market price will
+          cause a firm&rsquo;s revenue to fall to zero; represented by a
+          horizontal demand curve.
+        </dd>
+        <dt>Monopolistic competition</dt>
+        <dd>
+          A term describing industries that consist of many small firms, where
+          entry to the industry by new firms is easy, and where the products or
+          services of individual firms, while basically similar, are
+          differentiated from each other to a degree.
+        </dd>
+        <dt>Product differentiation</dt>
+        <dd>
+          Attempts by individual firms to distinguish their products or
+          services from those of their competitors.
+        </dd>
+        <dt>Oligopoly</dt>
+        <dd>
+          A situation in which four or fewer firms account for at least half of
+          the sales of an industry.
+        </dd>
+        <dt>Monopoly</dt>
+        <dd>
+          A situation in which there is only one seller of a particular good or
+          service.
+        </dd>
+        <dt>Price-fixing</dt>
+        <dd>
+          Agreements among oligopolists to raise their prices above levels that
+          would prevail in a competitive situation.
+        </dd>
+        <dt>Administered prices</dt>
+        <dd>
+          A term used to describe prices that have been fixed by sellers. See
+          price-fixing.
+        </dd>
+        <dt>Price leadership</dt>
+        <dd>
+          A technique of price-fixing in which one firm (the price leader) sets
+          its price and the rest of the firms in the industry follow suit.
+        </dd>
+        <dt>Cartel</dt>
+        <dd>
+          A formal agreement among producers to coordinate their price and
+          output decisions for the purpose of earning monopoly profits.
+        </dd>
+        <dt>Non-price competition</dt>
+        <dd>
+          Competition between sellers based not on price but rather on factors
+          such as product differentiation and advertising.
+        </dd>
+        <dt>Natural monopoly</dt>
+        <dd>
+          An industry, such as public utilities, that by its nature lends
+          itself to a monopolistic form of organization.
+        </dd>
+        <dt>Laissez-faire</dt>
+        <dd>
+          The doctrine or philosophy that, from the viewpoint of the public
+          interest, it is neither necessary nor beneficial for governments to
+          intervene in the operation of the economy.
+        </dd>
+        <dt>Marketing boards</dt>
+        <dd>
+          Government-sponsored organizations of farmers that support farm
+          incomes by restricting the supply of produce, usually through a
+          system of quotas on individual farmers.
+        </dd>
+        <dt>Industrial concentration</dt>
+        <dd>
+          The degree to which an industry is dominated by a few firms.
+        </dd>
+        <dt>Economies of scale</dt>
+        <dd>
+          Lower production costs per unit made possible by higher volumes of
+          production that permit the achievement of increased efficiencies.
+        </dd>
+        <dt>Globalization</dt>
+        <dd>
+          The growing internationalization of business, trade, and finance that
+          has characterized the period since the early 1980s.
+        </dd>
       </KeyWordFacts>
     </section>
   );

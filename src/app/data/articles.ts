@@ -36,9 +36,9 @@ export const articles: ArticleMeta[] = [
   {
     id: "entry4",
     number: "04",
-    title: "[Article title - to be added]",
-    tocChapters: "CH -",
-    source: "[Source 4]",
-    tocDate: "[date]",
+    title: "Ottawa aims to cut grocery bills with $3.2B food security strategy",
+    tocChapters: "CH 7–9",
+    source: "Global News",
+    tocDate: "Jun 11, 2026",
   },
 ];
