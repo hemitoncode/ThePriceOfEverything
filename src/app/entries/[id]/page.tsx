@@ -156,12 +156,24 @@ function Entry1() {
         economic growth Canada gave up by keeping production low.
       </p>
 
-      <ImageRow
-        labels={[
-          "IMAGE SLOT - e.g., GDP chart / quarterly output graph",
-          "IMAGE SLOT - e.g., Canada-US trade / factory photo",
-        ]}
-      />
+      <div className="imgrow">
+        <div className="imgslot" style={{ aspectRatio: "auto", padding: 0 }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/entries/entry1/gdp.png"
+            alt="GDP letter tiles stacked on coins"
+            style={{ width: "100%", height: "auto", objectFit: "contain" }}
+          />
+        </div>
+        <div className="imgslot" style={{ aspectRatio: "auto", padding: 0 }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/entries/entry1/canada-flag.png"
+            alt="Canadian flag"
+            style={{ width: "100%", height: "auto", objectFit: "contain" }}
+          />
+        </div>
+      </div>
 
       <KeyWordFacts subtitle="Chapter 1 · full list with definitions">
         <dt>Economics</dt>
