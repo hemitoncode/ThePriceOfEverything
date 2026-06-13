@@ -35,10 +35,9 @@ export default function Home() {
         </div>
       </header>
 
-      <div className="wrap">
-        {/* TOC RECEIPT */}
-        <section id="toc">
-          <div className="receipt" role="navigation" aria-label="Entries">
+      {/* TOC RECEIPT */}
+      <section id="toc">
+        <div className="receipt" role="navigation" aria-label="Entries">
             {articles.map((article, i) => (
               <div className="line" key={article.id}>
                 <span className="no">{String(i + 1).padStart(2, "0")}</span>
@@ -67,10 +66,8 @@ export default function Home() {
               THANK YOU FOR READING · NO REFUNDS ON DEADLINES
             </div>
             <Barcode label="J U N E · 1 5 · 2 0 2 6" />
-          </div>
-        </section>
-
-      </div>
+        </div>
+      </section>
 
       {/* FOOTER */}
       <footer>

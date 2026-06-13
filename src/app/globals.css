@@ -132,7 +132,7 @@ section { padding: 3rem 0; }
   width: 100%;
   background: var(--receipt);
   font-family: var(--mono);
-  padding: 2.8rem 3rem 2.2rem;
+  padding: 2.8rem clamp(2rem, 8vw, 12rem) 2.2rem;
   box-shadow: 0 14px 30px rgba(20,22,26,.14);
   position: relative;
   clip-path: polygon(
