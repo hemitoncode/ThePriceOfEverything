@@ -87,6 +87,7 @@ function EntryContent({
   id: string;
   article: (typeof articles)[number];
 }) {
+  if (id === "entry2") return <Entry2 />;
   if (id === "entry3") return <Entry3 />;
 
   // Placeholder entries
@@ -103,6 +104,190 @@ function EntryContent({
       number={article.number}
       todoText={todoMap[id] ?? "Content coming soon."}
     />
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* Entry 2 — complete                                                   */
+/* ------------------------------------------------------------------ */
+
+function Entry2() {
+  return (
+    <section className="entry" id="entry2">
+      <EntryTag
+        number="02"
+        title="Ontario's 2026 budget sees deficit hit $13.8B amid looming global instability"
+        skuLines={[
+          "SRC: CBC News",
+          "PUB: Mar 26, 2026",
+          "ENTRY: Apr 6, 2026",
+          "CH: 2, 3",
+          "LINK: cbc.ca/news/canada/toronto/ontario-budget-2026-9.7143032",
+        ]}
+      />
+
+      <h3>Summary</h3>
+      <p>
+        The 2026 budget for Ontario was unveiled by Minister of Finance Peter
+        Bethlenfalvy. It projects a 13.8 billion dollar deficit, meaning that
+        the government will spend 13.8 billion more than their revenue
+        (primarily taxes) in the fiscal year. A 244 billion dollar spending
+        plan proposed will prioritize infrastructure, research, and support for
+        high-growth industries. A key measure is a cut to the small business
+        corporate income tax rate from 3.2% to 2.2%, benefiting an estimated
+        375,000 businesses. The budget also includes a temporary IST rebate for
+        new home buyers on properties up to 1.85 million dollars.
+      </p>
+
+      <h3>Economic Concepts</h3>
+      <p>
+        This article connects directly to Chapter 2 &amp; 3. Ontario&rsquo;s
+        budget demonstrates how Canada operates in a{" "}
+        <span className="kw">market system</span> mixed with some{" "}
+        <span className="kw">command system</span> features. Citizens can
+        freely open businesses and buy from these companies, but the government
+        still intervenes in economic activities. For example, Ontario cut the
+        small business corporate income tax rate from 3.2% to 2.2%, which
+        directly impacts the <span className="kw">profits</span> business
+        owners keep from their sale. It mainly affects{" "}
+        <span className="kw">sole proprietorships</span>, since they make up
+        most small businesses. The temporary rebate for new home buyers that
+        covers about 130,000 dollars on homes valued up to 1.85 million is a
+        clear example of a <span className="kw">subsidy</span> as the
+        government provides funds to offset the cost for the end user to reduce
+        the cost for the buyer.
+      </p>
+
+      <div className="imgrow">
+        <div className="imgslot" style={{ aspectRatio: "auto", padding: 0 }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/entries/entry2/ch2-terms.png"
+            alt="Chapter 2 key word definitions"
+            style={{ width: "100%", height: "auto", objectFit: "contain" }}
+          />
+        </div>
+        <div className="imgslot" style={{ aspectRatio: "auto", padding: 0 }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/entries/entry2/ch3-terms.png"
+            alt="Chapter 3 key word definitions"
+            style={{ width: "100%", height: "auto", objectFit: "contain" }}
+          />
+        </div>
+      </div>
+
+      <KeyWordFacts subtitle="Chapters 2–3 · full list with definitions">
+        <dt>Market system</dt>
+        <dd>
+          An economic system in which economic decisions are made mainly by
+          buyers and sellers of goods, services and resources in an
+          uncoordinated manner.
+        </dd>
+        <dt>Traditional system</dt>
+        <dd>
+          An economic system in which the custom or tradition of the society
+          provides the answers to the three economic questions.
+        </dd>
+        <dt>Profits</dt>
+        <dd>
+          Those funds left from a business&rsquo;s sales revenues after all
+          expenses have been paid. Such funds are therefore available (after
+          taxes have been paid) for dividends to shareholders or for
+          reinvestment in the firm.
+        </dd>
+        <dt>Market power</dt>
+        <dd>
+          The ability to raise one&rsquo;s prices. Usually associated with a
+          dominant or a monopoly position in a market.
+        </dd>
+        <dt>Command system</dt>
+        <dd>
+          An economic system in which economic decisions are made mainly by the
+          government in a centralized manner.
+        </dd>
+        <dt>Subsidies</dt>
+        <dd>
+          Payments by the government to lower the cost of a service in order to
+          reduce the cost to the user of the service.
+        </dd>
+        <dt>Gross Domestic Product (GDP)</dt>
+        <dd>
+          A measure of the value of goods and services produced and incomes
+          earned in a country in a year.
+        </dd>
+        <dt>Sole proprietorship</dt>
+        <dd>
+          A business firm owned (and usually managed) by a single person who
+          bears full legal liability for the firm&rsquo;s debts.
+        </dd>
+        <dt>Partnership</dt>
+        <dd>
+          A business firm owned by two or more persons with each person bearing
+          full legal liability for the firm&rsquo;s debts.
+        </dd>
+        <dt>General Partner</dt>
+        <dd>
+          Partners who take an active part in the management of the business
+          and who have unlimited personal liability for its debts.
+        </dd>
+        <dt>Limited Partner</dt>
+        <dd>
+          A partner who invests in a business but takes no active part in the
+          management of it, and whose liability is limited to the amount
+          invested.
+        </dd>
+        <dt>Corporation</dt>
+        <dd>
+          A business firm that is a separate legal entity from its owners, or
+          shareholders, each of whose liability is limited to the amount of his
+          or her investment in the firm.
+        </dd>
+        <dt>Shareholders</dt>
+        <dd>
+          The owners of shares (stocks) in a corporation. Shareholders may or
+          may not have voting rights and their liability is limited to the
+          amount invested.
+        </dd>
+        <dt>Board of Directors</dt>
+        <dd>
+          A group of people elected by the shareholders of a corporation to
+          provide direction to the management of the corporation.
+        </dd>
+        <dt>Private Corporation</dt>
+        <dd>
+          A corporation that has fewer than 50 shareholders and is not traded
+          on stock market.
+        </dd>
+        <dt>Public Corporation</dt>
+        <dd>
+          A corporation that has 50 or more shareholders and is traded on a
+          stock market.
+        </dd>
+        <dt>Payroll taxes</dt>
+        <dd>
+          Taxes paid by employees based on the number of their employees or the
+          amount of their payroll.
+        </dd>
+        <dt>Proxies</dt>
+        <dd>
+          Legal instruments that allow a shareholder&rsquo;s right to vote at
+          shareholder&rsquo;s meetings to be delegated to another person either
+          with or without specific instructions as to how that vote will be
+          exercised.
+        </dd>
+        <dt>Crown Corporations</dt>
+        <dd>
+          Corporations owned by a government and that are ultimately
+          responsible, through a cabinet minister to that government.
+        </dd>
+        <dt>Privatization</dt>
+        <dd>
+          The process of selling government enterprises (usually crown
+          corporations) to private interests.
+        </dd>
+      </KeyWordFacts>
+    </section>
   );
 }
 

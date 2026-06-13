@@ -19,10 +19,10 @@ export const articles: ArticleMeta[] = [
   {
     id: "entry2",
     number: "02",
-    title: "[Article title — to be added]",
-    tocChapters: "CH —",
-    source: "[Source 2]",
-    tocDate: "[date]",
+    title: "Ontario's 2026 budget sees deficit hit $13.8B amid looming global instability",
+    tocChapters: "CH 2–3",
+    source: "CBC News",
+    tocDate: "Mar 26, 2026",
   },
   {
     id: "entry3",
