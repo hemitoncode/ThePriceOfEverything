@@ -49,6 +49,13 @@ export default function Home() {
               </div>
             ))}
             <hr />
+            <div className="line">
+              <span className="no" style={{ color: "var(--bill-green)" }}>R</span>
+              <Link href="/reflection" style={{ color: "var(--bill-green)" }}>Final Reflection</Link>
+              <span className="ch" style={{ color: "var(--bill-green)" }}>CH 1–9</span>
+              <span className="meta">All entries &middot; Jun 15, 2026</span>
+            </div>
+            <hr />
             <div className="total">
               <span>SUBTOTAL</span>
               <span>4 ENTRIES</span>
