@@ -306,7 +306,7 @@ function Entry3() {
           "PUB: May 11, 2026",
           "ENTRY: May 19, 2026",
           "CH: 4, 5, 6, 7",
-          "LINK: [paste the CTV article URL here]",
+          "LINK: https://www.ctvnews.ca/business/inflation/article/boc-report-estimates-counter-tariffs-pushed-prices-up-about-6-last-year/",
         ]}
       />
 
