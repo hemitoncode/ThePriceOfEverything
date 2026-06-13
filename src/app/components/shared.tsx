@@ -27,9 +27,30 @@ export function EntryTag({
       <div className="info">
         <div className="title">{title}</div>
         <div className="sku-line">
-          {skuLines.map((line) => (
-            <span key={line}>{line}</span>
-          ))}
+          {skuLines.map((line) => {
+            if (line.startsWith("LINK: ")) {
+              const url = line.slice("LINK: ".length);
+              const isPlaceholder = url.startsWith("[");
+              const href = isPlaceholder
+                ? undefined
+                : url.startsWith("http")
+                ? url
+                : `https://${url}`;
+              return (
+                <span key={line}>
+                  {"LINK: "}
+                  {isPlaceholder ? (
+                    url
+                  ) : (
+                    <a href={href} target="_blank" rel="noopener noreferrer">
+                      {url}
+                    </a>
+                  )}
+                </span>
+              );
+            }
+            return <span key={line}>{line}</span>;
+          })}
         </div>
       </div>
     </div>
