@@ -11,10 +11,10 @@ export const articles: ArticleMeta[] = [
   {
     id: "entry1",
     number: "01",
-    title: "[Article title — to be added]",
-    tocChapters: "CH —",
-    source: "[Source 1]",
-    tocDate: "[date]",
+    title: "Canada's GDP falls 0.6% in Q4 as U.S. trade tensions stifle new investment",
+    tocChapters: "CH 1",
+    source: "CBC News",
+    tocDate: "Feb 20, 2026",
   },
   {
     id: "entry2",
