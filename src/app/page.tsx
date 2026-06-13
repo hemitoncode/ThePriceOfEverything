@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import { articles } from "@/app/data/articles";
 import { Barcode } from "@/app/components/shared";
 
@@ -41,7 +41,7 @@ export default function Home() {
             {articles.map((article, i) => (
               <div className="line" key={article.id}>
                 <span className="no">{String(i + 1).padStart(2, "0")}</span>
-                <Link href={`/entries/${article.id}`}>{article.title}</Link>
+                <a href={`/entries/${article.id}`}>{article.title}</a>
                 <span className="ch">{article.tocChapters}</span>
                 <span className="meta">
                   {article.source} · {article.tocDate}
