@@ -297,16 +297,16 @@ function Entry2() {
         <div className="imgslot" style={{ aspectRatio: "auto", padding: 0 }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/entries/entry2/ch2-terms.png"
-            alt="Chapter 2 key word definitions"
+            src="/entries/entry2/ontario-flag.png"
+            alt="Ontario flag"
             style={{ width: "100%", height: "auto", objectFit: "contain" }}
           />
         </div>
         <div className="imgslot" style={{ aspectRatio: "auto", padding: 0 }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/entries/entry2/ch3-terms.png"
-            alt="Chapter 3 key word definitions"
+            src="/entries/entry2/budget.png"
+            alt="Calculator and budget document"
             style={{ width: "100%", height: "auto", objectFit: "contain" }}
           />
         </div>
