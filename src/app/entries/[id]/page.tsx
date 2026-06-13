@@ -114,13 +114,13 @@ function Entry1() {
     <section className="entry" id="entry1">
       <EntryTag
         number="01"
-        title="Canada's GDP falls 0.6% in Q4 as U.S. trade tensions stifle new investment"
+        title="Canada's Q4 GDP unexpectedly contracts, full-year growth at 1.7%"
         skuLines={[
-          "SRC: CBC News",
-          "PUB: Feb 20, 2026",
+          "SRC: Reuters",
+          "PUB: Feb 27, 2026",
           "ENTRY: Mar 3, 2026",
           "CH: 1",
-          "LINK: [paste the CBC article URL here]",
+          "LINK: https://www.reuters.com/world/americas/canadas-q4-gdp-contracts-annualized-basis-full-year-growth-17-2026-02-27/",
         ]}
       />
 

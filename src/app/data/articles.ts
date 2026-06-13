@@ -11,10 +11,10 @@ export const articles: ArticleMeta[] = [
   {
     id: "entry1",
     number: "01",
-    title: "Canada's GDP falls 0.6% in Q4 as U.S. trade tensions stifle new investment",
+    title: "Canada's Q4 GDP unexpectedly contracts, full-year growth at 1.7%",
     tocChapters: "CH 1",
-    source: "CBC News",
-    tocDate: "Feb 20, 2026",
+    source: "Reuters",
+    tocDate: "Feb 27, 2026",
   },
   {
     id: "entry2",
