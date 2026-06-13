@@ -43,7 +43,7 @@ export function EntryTag({
                     url
                   ) : (
                     <a href={href} target="_blank" rel="noopener noreferrer">
-                      {url}
+                      click here to view
                     </a>
                   )}
                 </span>
