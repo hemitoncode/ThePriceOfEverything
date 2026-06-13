@@ -539,14 +539,17 @@ function EntryNav({ currentId }: { currentId: string }) {
       <div className="ep-slot">
         {prev && (
           <Link href={`/entries/${prev.id}`} className="ep-link ep-prev">
-            <span className="ep-title">{prev.title}</span>
+            ← Previous
           </Link>
         )}
       </div>
+      <Link href="/" className="ep-home">
+        All Entries
+      </Link>
       <div className="ep-slot ep-slot-right">
         {next && (
           <Link href={`/entries/${next.id}`} className="ep-link ep-next">
-            <span className="ep-title">{next.title}</span>
+            Next →
           </Link>
         )}
       </div>
