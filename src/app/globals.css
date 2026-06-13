@@ -105,17 +105,12 @@ header {
 }
 
 .cover-meta {
-  margin-top: 1.6rem; display: grid; grid-template-columns: 1fr auto; gap: 1.4rem; align-items: end;
+  margin-top: 1.6rem;
 }
 .cover-meta .who {
   font-family: var(--mono); font-size: .8rem; font-weight: bold; line-height: 1.9; letter-spacing: .05em;
 }
 .cover-meta .who b { background: var(--ink); color: #fff; padding: .05rem .4rem; font-weight: bold; }
-.cover-bar { width: 240px; }
-
-@media (max-width: 640px) {
-  .cover-meta { grid-template-columns: 1fr; }
-}
 
 /* ---------- SECTIONS ---------- */
 section { padding: 3rem 0; }
@@ -132,7 +127,7 @@ section { padding: 3rem 0; }
 }
 
 /* ---------- TOC RECEIPT ---------- */
-#toc { display: grid; grid-template-columns: 1fr; justify-items: center; }
+#toc { display: grid; grid-template-columns: 1fr; justify-items: center; padding-top: 1.4rem; }
 .receipt {
   width: min(560px, 100%);
   background: var(--receipt);

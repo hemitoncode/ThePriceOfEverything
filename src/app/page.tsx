@@ -39,9 +39,6 @@ export default function Home() {
               <br />
               4 ENTRIES · 4 SOURCES · FINAL DUE <b>JUNE 15, 2026</b>
             </div>
-            <div className="cover-bar">
-              <Barcode label="C I E 3 M · 2 0 2 6" />
-            </div>
           </div>
         </div>
       </header>
@@ -49,17 +46,7 @@ export default function Home() {
       <div className="wrap">
         {/* TOC RECEIPT */}
         <section id="toc">
-          <div className="shelf-strip" style={{ width: "100%" }}>
-            <span className="sku">Checkout</span>
-            <h2>Table of Contents</h2>
-          </div>
           <div className="receipt" role="navigation" aria-label="Entries">
-            <div className="store">
-              THE PRICE OF EVERYTHING
-              <small>CIE3M E-SCRAPBOOK · HEMIT PATEL</small>
-              <small>ALL ITEMS PUBLISHED FEB 2026 OR LATER</small>
-            </div>
-            <hr />
             {articles.map((article, i) => (
               <div className="line" key={article.id}>
                 <span className="no">{String(i + 1).padStart(2, "0")}</span>
